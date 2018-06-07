@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Thanks to Krisnabiru
+# Line id : iamfake
 
 from Kriss.linepy import *
 from Kriss.akad.ttypes import Message
