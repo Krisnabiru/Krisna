@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Thanks to Krisnabiru
 # Line id : iamfake
+# Support by HelloWorld
 
 from Kriss.linepy import *
 from Kriss.akad.ttypes import Message
