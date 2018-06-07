@@ -334,18 +334,24 @@ def helpmessage():
     helpMessage =   "╔══════════════" + "\n" + \
                     "║              􂘁􀄋K􏿿􂘁􀄒R􏿿􂘁􀄉I􏿿􂘁􀄓S􏿿􂘁􀄓S􏿿" + "\n" + \
                     "╠══════════════" + "\n" + \
-                    "╠══[ Help Message ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Help Message ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "Help" + "\n" + \
                     "╠ " + key + "Translate" + "\n" + \
                     "╠ " + key + "TTS" + "\n" + \
-                    "╠══[ Status Command ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Status Command ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "Restart" + "\n" + \
                     "╠ " + key + "Runtime" + "\n" + \
                     "╠ " + key + "Speed" + "\n" + \
                     "╠ " + key + "Status" + "\n" + \
                     "╠ MyKey" + "\n" + \
                     "╠ SetKey「On / Off」" + "\n" + \
-                    "╠══[ Settings Command ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Settings Command ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "AutoAdd「On / Off」" + "\n" + \
                     "╠ " + key + "AutoJoin「On / Off」" + "\n" + \
                     "╠ " + key + "AutoJoinTicket「On / Off」" + "\n" + \
@@ -356,7 +362,9 @@ def helpmessage():
                     "╠ " + key + "CheckPost「On / Off」" + "\n" + \
                     "╠ " + key + "CheckSticker「On / Off」" + "\n" + \
                     "╠ " + key + "UnsendChat「On / Off」" + "\n" + \
-                    "╠══[ Self Command ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Self Command ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "ChangeName:「Krisnabiru」" + "\n" + \
                     "╠ " + key + "ChangeBio:「Krisnabiru」" + "\n" + \
                     "╠ " + key + "Me" + "\n" + \
@@ -378,7 +386,9 @@ def helpmessage():
                     "╠ " + key + "BackupProfile" + "\n" + \
                     "╠ " + key + "ChangePictureProfile" + "\n" + \
                     "╠ " + key + "ChangeVideoProfile" + "\n" + \
-                    "╠══[ Group Command ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Group Command ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "GroupCreator" + "\n" + \
                     "╠ " + key + "GroupId" + "\n" + \
                     "╠ " + key + "GroupName" + "\n" + \
@@ -389,7 +399,9 @@ def helpmessage():
                     "╠ " + key + "GroupMemberList" + "\n" + \
                     "╠ " + key + "GroupInfo" + "\n" + \
                     "╠ " + key + "ChangeGroupPicture" + "\n" + \
-                    "╠══[ Special Command ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Special Command ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "Mimic「On / Off」" + "\n" + \
                     "╠ " + key + "MimicList" + "\n" + \
                     "╠ " + key + "MimicAdd「Tag」" + "\n" + \
@@ -397,7 +409,9 @@ def helpmessage():
                     "╠ " + key + "TagAllMember" + "\n" + \
                     "╠ " + key + "Sider「Oɴ / Off / Reset」" + "\n" + \
                     "╠ " + key + "ViewLastSeen" + "\n" + \
-                    "╠══[ Media Command ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Media Command ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "CheckDate「Tanggal」" + "\n" + \
                     "╠ " + key + "CheckWebsite「Url」" + "\n" + \
                     "╠ " + key + "CheckPraytime「Lokasi」" + "\n" + \
@@ -424,7 +438,9 @@ def helptexttospeech():
     helpTextToSpeech =  "╔══════════════" + "\n" + \
                         "║              􂘁􀄋K􏿿􂘁􀄒R􏿿􂘁􀄉I􏿿􂘁􀄓S􏿿􂘁􀄓S􏿿" + "\n" + \
                         "╠══════════════" + "\n" + \
-                        "╠══[ Help TextToSpeech ]" + "\n" + \
+                        "╚═╗" + "\n" + \
+                        "║✪╠➤▸› [ Help TextToSpeech ]" + "\n" + \
+                        "╔═╝" + "\n" + \
                         "╠ " + key + "af : Afrikaans" + "\n" + \
                         "╠ " + key + "sq : Albanian" + "\n" + \
                         "╠ " + key + "ar : Arabic" + "\n" + \
@@ -478,7 +494,7 @@ def helptexttospeech():
                         "╠ " + key + "uk : Ukrainian" + "\n" + \
                         "╠ " + key + "vi : Vietnamese" + "\n" + \
                         "╠ " + key + "cy : Welsh" + "\n" + \
-                        "╠══[ Contoh : " + key + "say-id Krisnabiru ]" + "\n" + \
+                        "╠➤ [ Contoh : " + key + "say-id Krisnabiru ]" + "\n" + \
                         "╠══════════════" + "\n" + \
                         "║               By : Krisnabiru 􀄃􀆖cony kiss􏿿" + "\n" + \
                         "║          line.me/ti/p/~iamfake" + "\n" + \
@@ -493,7 +509,9 @@ def helptranslate():
     helpTranslate = "╔══════════════" + "\n" + \
                     "║              􂘁􀄋K􏿿􂘁􀄒R􏿿􂘁􀄉I􏿿􂘁􀄓S􏿿􂘁􀄓S􏿿" + "\n" + \
                     "╠══════════════" + "\n" + \
-                    "╠══[ Help Translate ]" + "\n" + \
+                    "╚═╗" + "\n" + \
+                    "║✪╠➤▸› [ Help Translate ]" + "\n" + \
+                    "╔═╝" + "\n" + \
                     "╠ " + key + "af : afrikaans" + "\n" + \
                     "╠ " + key + "sq : albanian" + "\n" + \
                     "╠ " + key + "am : amharic" + "\n" + \
@@ -600,7 +618,7 @@ def helptranslate():
                     "╠ " + key + "zu : zulu" + "\n" + \
                     "╠ " + key + "fil : Filipino" + "\n" + \
                     "╠ " + key + "he : Hebrew" + "\n" + \
-                    "╠══[ Contoh : " + key + "say-id Krisnabiru ]" + "\n" + \
+                    "╠➤ [ Contoh : " + key + "say-id Krisnabiru ]" + "\n" + \
                     "╠══════════════" + "\n" + \
                     "║               By : Krisnabiru 􀄃􀆖cony kiss􏿿" + "\n" + \
                     "║          line.me/ti/p/~iamfake" + "\n" + \
