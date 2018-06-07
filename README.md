@@ -1,2 +1,0 @@
-# Krisna
-Thanks to :
