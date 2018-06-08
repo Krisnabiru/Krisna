@@ -1074,7 +1074,7 @@ def clientBot(op):
                                     client.sendMessage(to, "Silahkan kirim gambarnya")
                             elif cmd == 'changedual':
                             	picture = client.downloadFileURL("https://imgur.com/8q7YvkE", saveAs="image.png")
-                            	video = client.downloadFileURL("https://www.youtube.com/watch?v=X-x7eZOdBFM", saveAs="video.mp4")
+                            	video = client.downloadFileURL("https://sv1.onlinevideoconverter.com/download?file=i8d3a0f5e4j9g6d3", saveAs="video.mp4")
                             	changeVideoAndPictureProfile(picture, video)
                             	client.sendMessage(to, "Berhasil mengubah picture dan video profile")
                             elif cmd == 'tagallmember':
