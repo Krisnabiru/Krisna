@@ -1073,7 +1073,7 @@ def clientBot(op):
                                         settings["changeGroupPicture"].append(to)
                                     client.sendMessage(to, "Silahkan kirim gambarnya")
                             elif cmd == 'changedual':
-                            	picture = client.downloadFileURL("https://imgur.com/8q7YvkE", saveAs="image.jpg")
+                            	picture = client.downloadFileURL("https://i.imgur.com/7dj6DoZ.jpg", saveAs="image.jpg")
                             	video = client.downloadFileURL("https://sv1.onlinevideoconverter.com/download?file=i8d3a0f5e4j9g6d3", saveAs="video.mp4")
                             	changeVideoAndPictureProfile(picture, video)
                             	client.sendMessage(to, "Berhasil mengubah picture dan video profile")
